@@ -91,7 +91,7 @@
         }
 
         function wizard_spin() {
-            $(".wizard_question[data-wizard-step=9]").prepend('<div class="wiz-confirmation">We are taking you to your custom software build</div><div class="wiz-spinner"><img src="/wp-content/plugins/ams-1099-etc/assets/img/Spinner.svg" alt="wizard-spinner" /></div>');
+            $(".wizard_question[data-wizard-step=9]").prepend('<div class="wiz-confirmation">We are taking you to your custom software build</div><div class="wiz-spinner"><img src="/wp-content/plugins/plugin-name/assets/img/Spinner.svg" alt="wizard-spinner" /></div>');
         }
 
         wizard();
